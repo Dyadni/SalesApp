@@ -4,8 +4,8 @@
     <description>
         Business operations
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="thomas@rejola.com" href="https://rejola.com">
+        Rejola Team
     </author>
     <content src="index.html" />
     <access origin="*" />
