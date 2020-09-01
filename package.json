@@ -9,7 +9,9 @@
     "cordova-plugin-x-toast": "^2.7.2",
     "eslint": ">=4.18.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cordova-plugin-whitelist": "~1.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "ionic:build": "echo \"Ionic BUILD phase\""
@@ -29,5 +31,11 @@
   "bugs": {
     "url": "https://github.com/Dyadni/SalesApp/issues"
   },
-  "homepage": "https://github.com/Dyadni/SalesApp#readme"
+  "homepage": "https://github.com/Dyadni/SalesApp#readme",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-dialogs": {}
+    }
+  }
 }

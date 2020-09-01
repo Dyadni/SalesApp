@@ -1,7 +1,8 @@
 {
   "name": "dyadni",
-  "type": "custom",
   "integrations": {
     "cordova": {}
-  }
+  },
+  "type": "custom",
+  "id": "3e94ec4a"
 }
