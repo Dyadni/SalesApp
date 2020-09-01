@@ -1,0 +1,7 @@
+{
+  "name": "dyadni",
+  "type": "custom",
+  "integrations": {
+    "cordova": {}
+  }
+}

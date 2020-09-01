@@ -1,0 +1,30 @@
+{
+  "name": "dyadni",
+  "version": "1.0.0",
+  "description": "A sales app for business operations",
+  "main": "index.js",
+  "dependencies": {
+    "cordova-plugin-dialogs": "^2.0.2",
+    "cordova-plugin-x-toast": "^2.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dyadni/SalesApp.git"
+  },
+  "keywords": [
+    "sales",
+    "dydni",
+    "business",
+    "products"
+  ],
+  "author": "dyadni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dyadni/SalesApp/issues"
+  },
+  "homepage": "https://github.com/Dyadni/SalesApp#readme"
+}
