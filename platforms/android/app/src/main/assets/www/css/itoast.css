@@ -1,0 +1,113 @@
+/* CSS Document */
+
+
+/*
+*Plugin Name : iToast
+*Developer : SHAN K PAUL <shanpaul06@gmail.com>
+*website : www.tagprof.com/shan, www.dreamwebz.in
+*
+*/
+/* 
+    Document   : itoast
+    Created on : 18 Feb, 2013, 11:23:13 AM
+    Author     : shan K paul
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#itoast_frame {
+  font-family: sans-serif, serif;
+  min-width: 200px;
+
+  /*border: 2px solid #D6E9C6;
+    background-color: #DFF0D8;
+    color: #468847;*/
+  box-shadow: 0px 1px 2px #D6E9C6;
+  padding: 10px;
+  position: fixed;
+  bottom: 60px;
+  font-size: 12px;
+  text-align: center;
+  /*border-radius: 7px;*/
+  z-index:10;
+  top:50%;
+  margin-left: 50px;
+  height: 20px;
+ 
+  
+}
+#itoast_frame2 {
+  font-family: sans-serif, serif;
+  min-width: 200px;
+  /*border: 2px solid #D6E9C6;
+    background-color: #DFF0D8;
+    color: #468847;*/
+  box-shadow: 0px 1px 2px #D6E9C6;
+  padding: 6px;
+  position: fixed;
+  bottom: 10%;
+  font-size: 12px;
+  text-align: center;
+  /*border-radius: 7px;*/
+  display: none;
+  z-index:999999999;
+  height: 20px;
+  top: 0;
+  right: 0;
+  width: 100%;
+  
+}
+
+#itoast_frame:first-letter { text-transform: uppercase;padding-top: 10px; }
+
+.theme_dark {
+  border: 2px solid #2C3E50;
+  background-color: #34495E;
+  color: #fafafa;
+  font-family:1.2em;
+ /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+ z-index: 12000;
+  
+}
+
+.theme_red {
+  border: 2px solid #da6262;
+  background-color: #cd6c6c;
+  color: #FFF;
+}
+
+.theme_green {
+  border: 2px solid #D6E9C6;
+  background-color: #DFF0D8;
+  color: #468847;
+}
+.theme_kaiyaan {
+  content: "\f00c";
+  border: 2px solid #ec870e;
+  background-color: #ec870e;
+  color: #fff;
+    top: 30px !important;
+    right: 0px;
+}
+.theme_kaiyaan_home {
+  content: "\f00c";
+  border: 2px solid #ec870e;
+  background-color: #ec870e;
+  color: #fff;
+    top: 50px !important;
+    right: 0px;
+    padding-top: 10px;
+}
+.theme_kaiyaan p {
+  padding-top: 10px;
+  }
+  
+.theme_icon {
+  border: 2px solid #D6E9C6;
+  background-color: #DFF0D8;
+  color: #468847;
+  border-radius: 50% !important;
+  height: 25px !important;
+  width: 25px !important;
+}

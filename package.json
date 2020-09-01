@@ -4,13 +4,15 @@
   "description": "A sales app for business operations",
   "main": "index.js",
   "dependencies": {
+    "cordova-android": "9.0.0",
     "cordova-plugin-dialogs": "^2.0.2",
     "cordova-plugin-x-toast": "^2.7.2",
     "eslint": ">=4.18.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ionic:build": "echo \"Ionic BUILD phase\""
   },
   "repository": {
     "type": "git",

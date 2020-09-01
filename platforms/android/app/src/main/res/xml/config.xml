@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.dyadnisales" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>DYADNI SALES</name>
+    <description>
+        Business operations
+    </description>
+    <author email="thomas@rejola.com" href="https://rejola.com">
+        Rejola Team New
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="*.google.com" />
+    <access origin="*.googleapis.com" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon density="ldpi" src="resources/icon/android/ldpi.png" />
+    <icon density="mdpi" src="resources/icon/android/mdpi.png" />
+    <icon density="hdpi" src="resources/icon/android/hdpi.png" />
+    <icon density="xhdpi" src="resources/icon/android/xhdpi.png" />
+    <icon density="xxhdpi" src="resources/icon/android/xxhdpi.png" />
+    <icon density="xxxhdpi" src="resources/icon/android/xxxhdpi.png" />
+    <splash density="land-ldpi" src="resources/screen/android/drawable-land-ldpi-screen.png" />
+    <splash density="land-mdpi" src="resources/screen/android/drawable-land-mdpi-screen.png" />
+    <splash density="land-hdpi" src="resources/screen/android/drawable-land-hdpi-screen.png" />
+    <splash density="land-xhdpi" src="resources/screen/android/drawable-land-xhdpi-screen.png" />
+    <splash density="land-xxhdpi" src="resources/screen/android/drawable-land-xxhdpi-screen.png" />
+    <splash density="land-xxxhdpi" src="resources/screen/android/drawable-land-xxxhdpi-screen.png" />
+    <splash density="port-ldpi" src="resources/screen/android/splash-port-ldpi-screen.png" />
+    <splash density="port-mdpi" src="resources/screen/android/splash-port-mdpi-screen.png" />
+    <splash density="port-hdpi" src="resources/screen/android/splash-port-hdpi-screen.png" />
+    <splash density="port-xhdpi" src="resources/screen/android/splash-port-xhdpi-screen.png" />
+    <splash density="port-xxhdpi" src="resources/screen/android/splash-port-xxhdpi-screen.png" />
+    <splash density="port-xxxhdpi" src="resources/screen/android/splash-port-xxxhdpi-screen.png" />
+    <allow-navigation href="*" />
+    <allow-intent href="market:*" />
+    <allow-intent href="maps:*" />
+    <allow-intent href="http://*/*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="17" />
+    <preference name="SplashScreen" value="splash" />
+    <preference name="loadUrlTimeoutValue" value="700000" />
+</widget>
