@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src * 'self' 'unsafe-inline'; media-src * 'unsafe-inline'" />
+
+<!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *">
+ -->
+<meta name="format-detection" content="telephone=no" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-640x920.png">
+<title>DyaDni Sales App</title>
+<link rel="stylesheet" href="css/swiper.css">
+<link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" type="text/css" href="css/itoast.css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet"> 
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.validate.min.js" ></script>
+<script type="text/javascript">
+  
+  $(document).ready(function () {
+
+    // $(".slider-caption__more").on("click",function(){
+    //       var msg="<p>Login to read more</p>";
+    //     itoast.show(msg,5000,'theme_kaiyaan_home');
+    // });
+   // $.ajax({
+   //       url:"https://kaiyaan.ezsecure.in/users/category/ajax/managecategory.php",
+   //       type: 'POST',
+   //       data:'shopbycategorymenu=1',
+   //       success : function(data) {
+   //        //alert(data);
+           
+   //        $("#menucontent").html(data);
+           
+          
+          
+   //       },
+   //       error: function (jqXHR, exception) {
+   //          alert(exception+jqXHR.status);
+   //         },
+         
+   //     });
+    // $("#ForgotForm").validate({
+    //   submitHandler: function(form) {
+    //     //alert("Submitted!");
+    //     var data=$("#ForgotForm").serialize(); //alert(data);
+    //     //var phone=$("#phone3").val(); //alert(phone);
+    //     //$(form).ajaxSubmit();
+    //     $.ajax({
+    //      url:"http://kaiyaan.ezsecure.in/users/users/ajax/manageUsers.php",
+    //      type: 'POST',
+    //      data:data,
+    //      beforeSend : function() {
+    //       $('body').css('cursor', 'progress');
+    //      },
+    //      success : function(data) {
+          
+    //       //alert(data);
+    //       $("#message").html(data);
+    //       $('body').css('cursor', 'default');
+          
+          
+    //      }
+         
+    //    });
+    //   },
+    // rules: {
+    //     Email_F: {
+    //           required: true,
+    //           email: true
+    //         }
+    //   }
+    // });
+
+
+    });
+     </script>
+</head>
+<body id="mobile_wrap">
+
+    <div class="panel-overlay"></div>
+
+    <div class="panel panel-left panel-reveal">
+                  <!-- Slider -->
+                 <div class="swiper-container-subnav multinav">
+                    <div class="swiper-wrapper">
+			<div class="swiper-slide">		
+				<nav class="main_nav_underline">
+				<ul>
+				<li><a class="home"><img src="images/icons/white/home.png" alt="" title="" /><span>Home</span></a></li>
+				<!-- <li><a href="about.html"><img src="images/icons/white/mobile.png" alt="" title="" /><span>About</span></a></li>
+				<li><a href="account.html"><img src="images/icons/white/features.png" alt="" title="" /><span>Features</span></a></li> -->
+        <!--  <li class="subnav opensubnav"><img src="images/icons/white/categories.png" alt="" title="" /><span>Shop by Category</span></li> -->
+				
+				<li><a href="#" data-popup=".popup-login" class="open-popup"><img src="images/icons/white/lock.png" alt="" title="" /><span>Login</span></a></li>
+				<li><a href="#" ><img src="images/icons/white/form.png" alt="" title="" /><span>Terms & Conditions</span></a></li>
+				<li><a href="#" ><img src="images/icons/white/form.png" alt="" title="" /><span>Privacy Policy</span></a></li>
+				<!-- <li><a href="#"><img src="images/icons/white/twitter.png" alt="" title="Share this App" /><span>Share</span></a></li> -->
+				
+				<!-- <li><a href="team.html"><img src="images/icons/white/users.png" alt="" title="" /><span>Team</span></a></li>
+				<li><a href="blog.html"><img src="images/icons/white/blog.png" alt="" title="" /><span>Blog</span></a></li>		
+
+				<li><a href="photos.html"><img src="images/icons/white/photos.png" alt="" title="" /><span>Photos</span></a></li>
+				<li><a href="videos.html"><img src="images/icons/white/video.png" alt="" title="" /><span>Videos</span></a></li>
+				<li><a href="music.html"><img src="images/icons/white/music.png" alt="" title="" /><span>Music</span></a></li>
+				
+				<li><a href="shop.html"><img src="images/icons/white/shop.png" alt="" title="" /><span>Shop</span></a></li>
+				<li class="subnav opensubnav"><img src="images/icons/white/categories.png" alt="" title="" /><span>Sub level menu</span></li>
+				<li><a href="cart.html"><img src="images/icons/white/cart.png" alt="" title="" /><span>Cart</span></a></li>
+				
+				<li><a href="tables.html"><img src="images/icons/white/tables.png" alt="" title="" /><span>Tables</span></a></li>
+				
+				<li><a href="form.html"><img src="images/icons/white/form.png" alt="" title="" /><span>Custom Form</span></a></li>
+				
+				
+				<li><a href="tel:012345678"><img src="images/icons/white/phone.png" alt="" title="" /><span>Call now!</span></a></li>
+				<li><a href="contact.html"><img src="images/icons/white/contact.png" alt="" title="" /><span>Contact</span></a></li> -->
+				</ul>
+				</nav>
+			</div>
+      <!-- <div class="swiper-slide">    
+        <div class="subnav_header backtonav"><img src="images/icons/black/back.png" alt="" title="" /><span>Shop by category</span></div>
+        <nav class="main_nav_underline">
+        <div class="toggle" id="menucontent">
+              
+              
+              
+            </div>
+        </nav>
+      </div -->>	
+			<!-- <div class="swiper-slide">		
+				<div class="subnav_header backtonav"><img src="images/icons/white/back.png" alt="" title="" /><span>BACK TO MAIN MENU</span></div>
+				<nav class="main_nav_underline">
+				<ul>
+
+				<li><a href="shop.html"><img src="images/icons/white/car.png" alt="" title="" /><span>Cars</span></a></li>
+				<li><a href="shop.html"><img src="images/icons/white/bus.png" alt="" title="" /><span>Buses</span></a></li>
+				<li><a href="shop.html"><img src="images/icons/white/bike.png" alt="" title="" /><span>Bikes</span></a></li>
+				
+				<li><a href="shop.html"><img src="images/icons/white/drink.png" alt="" title="" /><span>Drinks</span></a></li>
+				<li><a href="shop.html"><img src="images/icons/white/food.png" alt="" title="" /><span>Food</span></a></li>
+				<li><a href="shop.html"><img src="images/icons/white/orders.png" alt="" title="" /><span>Clothes</span></a></li>
+				
+				<li><a href="shop.html"><img src="images/icons/white/rocket.png" alt="" title="" /><span>Rockets</span></a></li>
+				<li><a href="shop.html"><img src="images/icons/white/briefcase.png" alt="" title="" /><span>Accessories</span></a></li>
+				<li><a href="shop.html"><img src="images/icons/white/gift.png" alt="" title="" /><span>Gifts</span></a></li>
+				<li class="subnav opensubsubnav"><img src="images/icons/white/categories.png" alt="" title="" /><span>Third sublevel menu</span></li>
+				</ul>
+				</nav>
+			</div> -->
+			<!-- <div class="swiper-slide">		
+				<div class="subnav_header backtosubnav"><img src="images/icons/white/back.png" alt="" title="" /><span>BACK TO 2 SUBLEVEL MENU</span></div>
+				<nav class="main_nav_underline">
+				<ul>
+
+				<li><a href="shop.html"><img src="images/icons/white/car.png" alt="" title="" /><span>Subcategory 01</span></a></li>
+				<li><a href="shop.html"><img src="images/icons/white/bus.png" alt="" title="" /><span>Subcategory 02</span></a></li>
+				<li><a href="shop.html"><img src="images/icons/white/bike.png" alt="" title="" /><span>Subcategory 03</span></a></li>
+				<li><a href="shop.html"><img src="images/icons/white/drink.png" alt="" title="" /><span>Subcategory 04</span></a></li>
+				<li><a href="shop.html"><img src="images/icons/white/food.png" alt="" title="" /><span>Subcategory 05</span></a></li>
+
+				
+				</ul>
+				</nav>
+			</div> -->
+		    </div>
+		</div>
+    </div>
+
+    <!-- <div class="panel panel-right panel-reveal">
+      <div class="user_login_info">
+	  
+                <div class="user_thumb">
+           
+                  <div class="user_details">
+                   <p>Welcome, <span>Nathalie</span></p>
+                  </div>  
+                  <div class="user_avatar"><img src="images/avatar3.jpg" alt="" title="" /></div>       
+                </div>
+				
+                  <nav class="user-nav">
+                    <ul>
+                      <li><a href="account.html"><img src="images/icons/white/settings.png" alt="" title="" /><span>Account Settings</span></a></li>
+                      <li><a href="account.html"><img src="images/icons/white/briefcase.png" alt="" title="" /><span>My Account</span></a></li>
+                      <li><a href="account.html"><img src="images/icons/white/message.png" alt="" title="" /><span>Messages</span><strong>12</strong></a></li>
+                      <li><a href="account.html"><img src="images/icons/white/love.png" alt="" title="" /><span>Favorites</span><strong>5</strong></a></li>
+                      <li><a href="index.html"><img src="images/icons/white/lock.png" alt="" title="" /><span>Logout</span></a></li>
+                    </ul>
+                  </nav>
+      </div>
+    </div> -->
+
+    <div class="views">
+
+      <div class="view view-main">
+
+
+
+        <div class="pages">
+
+          <div data-page="index" class="page ">
+            <div class="page-content">
+			
+		<div class="navbar navbar--fixed navbar--fixed-top">
+			<div class="navbar__col navbar__col--icon navbar__col--icon-right">
+				<a href="#" data-panel="left" class="open-panel"><img src="images/icons/white/menu.png" alt="" title="" /></a>
+			</div>
+			<div class="navbar__col navbar__col--title">
+				<a class="home">&nbsp;DyaDni Sales </a>
+			</div>
+						
+                </div>
+
+                  <!-- Slider -->
+                 <div class="swiper-container slidertoolbar">
+                    <div class="swiper-wrapper">
+                    
+                      <div class="swiper-slide" style="background-image:url(images/slide3.jpg); background-repeat: no-repeat;">
+		   
+                			 <div class="slider-caption" style="background-color: rgb(0,0,0,0.3); text-align: center;">
+                			        
+                				  <h2 data-swiper-parallax="-100%" class="title--white">Sales Management</h2>
+                				  <p data-swiper-parallax="-30%" class="text--white">Easy & Efficient ways to  manage all your orders</p>
+
+
+                				  <!-- <a class="slider-caption__more" data-swiper-parallax="-60%" style="margin-bottom: 10px;" >READ MORE</a> -->
+                         
+                			 </div>
+                		    </div> 
+                      
+                      <!-- <div class="swiper-slide" style="background-image:url(images/slide1.jpg);">
+				  
+                				<div class="slider-caption" style="background-color: rgb(0,0,0,0.3); text-align: center;">
+                				
+                				<h2 data-swiper-parallax="-100%" class="title--white">Choose the Best</h2>
+                				<p data-swiper-parallax="-30%" class="text--white"> A few clicks is all it takes. All favourite products covering all categories required for you. Favorite brands and hottest trends . </p>
+                				<a  class="slider-caption__more" data-swiper-parallax="-60%" style="margin-bottom: 10px;">READ MORE</a>
+                				</div>	
+		
+                      </div> -->
+                      <!-- <div class="swiper-slide" style="background-image:url(images/slide2.jpg);">
+		  
+                				<div class="slider-caption" style="background-color: rgb(0,0,0,0.3); text-align: center;">
+                				
+                				<h2 data-swiper-parallax="-100%" class="title--white">Shopping for all seasons</h2>
+                				<p data-swiper-parallax="-30%" class="text--white">Whatever you’ve got in mind, we’ve got inside. Your one stop smart shopping resource.</p>
+
+                				</div>
+                                  
+                		   </div> --> 		   
+                    </div>
+                    <!-- <div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>	 -->
+                  </div>
+                  <!-- new -->
+                    <div class="page_single layout_fullwidth_padding" style="margin-top:20px;" >  
+    
+              <blockquote>
+              Welcome to <span>DyaDni Sales  App <br> One of the leading sellers </span>
+
+              Registered in 2018 , Dyadni Industries has made a name for itself in the list of top suppliers of in India. 
+
+Dyadni Industries is listed in Trade India's list of verified sellers offering supreme quality of etc. Buy in bulk from us for the best quality products and service.
+            </blockquote>
+          <!--   <blockquote>
+              <p>We are the main player in the project and retail lighting business. We have exclusive lighting designs from European lighting companies viz. Italy, Austria, Germany, Spain and France. The company selection is wide, but carefully hand-picked for fine craftsmanship, innovative use of technology and exceptional design concepts.</p>
+              </blockquote> -->
+        <!-- <blockquote>
+          We provide lighting solutions for Commercial, Residential, Corporate, Façade, Landscape, Recreational, Hospitality, Spiritual, Sports, Urban, Heritage, Retail,Projects.
+        </blockquote> -->
+         
+  
+      
+      
+             
+              
+              
+
+              <h4>Dyadni Sales App work flow</h4>
+              <ul class="simple_list">
+              <li>Login to the App</li>
+              <li>Add the new order details</li>
+              <li>Track your order status</li>
+              <li>View your orders</li>
+              <li>View your sales reports</li>
+              </ul>
+        <a href="#" data-popup=".popup-login" class="btn btn--full open-popup">Login</a>
+        
+             <!--  <a href="http://themeforest.net/user/sindevo" class="btn btn--full">BUY IT NOW!</a> -->
+       
+        
+         </div>
+
+ <!-- new -->
+
+
+
+			  
+		<!--  <div class="swiper-container-toolbar swiper-toolbar">
+			<div class="swiper-pagination-toolbar"></div>
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide toolbar-icon">
+				<a href="#" data-panel="right" class="open-panel"><img src="images/icons/blue/user.png" alt="" title="" /></a>
+				 <a href="#" data-popup=".popup-login" class="open-popup"><img src="images/icons/blue/lock.png" alt="" title="Login" /></a>
+				 <a href="#" data-popup=".popup-signup" class="open-popup"><img src="images/icons/blue/rocket.png" alt="" title="Register" /></a>
+				<a href="http://dyadni.rejola.com/"><img src="images/icons/black/electronics.png" alt="Website" title="Website" /></a>
+			    <a href="#" data-popup=".popup-social" class="open-popup"><img src="images/icons/blue/twitter.png" alt="" title="" /></a>
+				<a href="tel:9884099615"  ><img src="images/icons/black/phone.png" alt="" title="Call us" /></a>
+				<a href="#" id="contact"><img src="images/icons/black/contact.png" alt="" title="Write to us" /></a>
+			  </div> 
+			  -- <div class="swiper-slide toolbar-icon">
+				   <a href="account.html"><img src="images/icons/blue/features.png" alt="" title="" /></a>
+				  <a href="music.html"><img src="images/icons/blue/music.png" alt="" title="" /></a>
+				  <a href="#" data-popup=".popup-login" class="open-popup"><img src="images/icons/blue/lock.png" alt="" title="" /></a>
+				  <a href="videos.html"><img src="images/icons/blue/video.png" alt="" title="" /></a>
+				  <a href="tel:12345678" ><img src="images/icons/blue/phone.png" alt="" title="" /></a>
+			   </div> --
+
+			</div>
+		  </div>	 -->
+
+			  
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <!-- Login Popup -->
+    <div class="popup popup-login">
+        <div class="content-block">
+            <h4>LOGIN</h4>
+            <div class="loginform">
+                <form id="LoginForm" method="post">
+                   <!--  <input type="text" name="Username" value="" class="form_input required" placeholder="username" /> -->
+                    <input type="email" name="phone_L" id="phone_L" class="form_input required" placeholder="Email ID * " />
+                    <input type="password" name="Password_L" value="" class="form_input required" placeholder="Password *" id="Password_L" />
+                    <div class="forgot_pass"><a >! Login via registered Email ID  </a></div>
+                   <!--  <div class="forgot_pass"><a href="#" data-popup=".popup-forgot" class="open-popup">Forgot Password?</a></div> -->
+                     <input type="hidden" name="login_user" value="1">
+                    <input type="submit" name="submit" class="form_submit" id="submit" value="SIGN IN" />
+                </form>
+                <!-- <div class="signup_bottom">
+                    <p>Don't have an account?</p>
+                    <a href="#" data-popup=".popup-signup" class="open-popup">SIGN UP</a>
+                </div> -->
+
+                <h5 id="message_login"></h5>
+            </div>
+            <div class="close_popup_button">
+                <a href="#" class="close-popup" data-popup=".popup-login"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Popup -->
+    <div class="popup popup-signup">
+        <div class="content-block">
+            <h4>REGISTER</h4>
+            <div class="loginform">
+                <form id="RegisterForm" method="post">
+                    <input type="text" name="Username" id="Username"  class="form_input required" placeholder="Username * " />
+                     <input type="text" name="Email"  class="form_input required" placeholder="Email * " />
+                    <input type="tel" name="phone1" id="phone1" class="form_input required" placeholder="Mobile *" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10" />
+
+                    <input type="password" name="Password_R" id="Password_R"class="form_input required" placeholder="Password * "  />
+
+                     <input type="password" name="ConfirmPassword" id="ConfirmPassword"  class="form_input required" placeholder="Confirm Password *" />
+
+                   <input type="hidden" name="reg_otp" value="1">
+                    <input type="submit" name="submit" class="form_submit" id="submitregister" value="GENERATE OTP" />
+                </form>
+                <h5 id="message_reg"></h5>
+		<!-- <h5>- OR REGISTER WITH A SOCIAL ACCOUNT -</h5>
+		<div class="signup_social">
+			<a href="http://www.facebook.com/" class="signup_facebook">FACEBOOK</a>
+			<a href="http://www.twitter.com/" class="signup_twitter">TWITTER</a>            
+		</div>	 -->	
+            </div>
+            <div class="close_popup_button">
+                <a href="#" class="close-popup" data-popup=".popup-signup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+    </div>
+	
+    <!-- Forgot Password Popup -->
+    <div class="popup popup-forgot">
+        <div class="content-block">
+            <h4>FORGOT PASSWORD</h4>
+            <div class="loginform">
+                <form id="ForgotForm" method="post">
+                    <input type="text" name="Email_F" class="form_input required" placeholder="Registered Email" />
+                    <!-- <input type="hidden" name="phone3" id="phone" > -->
+                    <input type="submit" name="submitforgot" class="form_submit" id="submitforgot" value="RESET PASSWORD" />
+                </form>
+                <div class="signup_bottom" id="message">
+                   <!--  <p>Check your email and follow the instructions to reset your password.</p> -->
+                </div>
+            </div>
+            <div class="close_popup_button">
+                <a href="#" class="close-popup" data-popup=".popup-forgot"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+    </div>
+     <!-- Forgot Password Popup -->
+    <div class="popup popup-otp">
+        <div class="content-block">
+            <h4>ENTER OTP</h4>
+            <div class="loginform">
+                <form id="OTPForm" method="post">
+                    <input type="tel" name="otp" class="form_input required" placeholder="OTP" maxlength="6"/>
+                    <input type="hidden" name="phone" id="phone" >
+                     <!-- <input type="hidden" name="name" id="name" >
+                      <input type="hidden" name="password" id="password"  -->
+                    <input type="hidden" name="submit_otp" id="submit_otp" value="1">
+                    <input type="submit" name="submit" class="form_submit" id="submitotp" value="SUBMIT OTP" />
+                </form>
+                <div class="signup_bottom">
+                    <p>OTP sent successfully. Enter the OTP for verification.</p>
+                </div>
+                 <h5 id="message_otp"></h5>
+            </div>
+            <div class="close_popup_button">
+                <a href="#" class="close-popup" data-popup=".popup-otp"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="popup popup-otp-login">
+        <div class="content-block">
+            <h4>ENTER OTP</h4>
+            <div class="loginform">
+                <form id="OTPFormLogin" method="post">
+                    <input type="tel" name="otp" value="" class="form_input required" placeholder="OTP" />
+                    <input type="hidden" name="phone2" id="phone2" value="">
+                    <input type="hidden" name="submit_otp_login" id="submit_otp_login" value="1">
+                    <input type="submit" name="submit" class="form_submit" id="submitotplogin" value="SUBMIT OTP" />
+                </form>
+                <div class="signup_bottom">
+                    <p>OTP sent successfully. Enter the OTP for verification & Login.</p>
+                </div>
+            </div>
+            <div class="close_popup_button">
+                <a href="#" class="close-popup" data-popup=".popup-otp"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+    </div> -->
+	
+    <!-- Social Icons Popup -->
+    <div class="popup popup-social">
+    <div class="content-block">
+      <h4>Social Share</h4>
+      <p>Share icons solution that allows you share and increase your social popularity.</p>
+      <ul class="social_share">
+      <li><a href="http://twitter.com/"><img src="images/icons/black/twitter.png" alt="" title="" /><span>TWITTER</span></a></li>
+      <li><a href="http://www.facebook.com/"><img src="images/icons/black/facebook.png" alt="" title="" /><span>FACEBOOK</span></a></li>
+      <li><a href="http://plus.google.com"><img src="images/icons/black/gplus.png" alt="" title="" /><span>GOOGLE</span></a></li>
+      <li><a href="http://www.dribbble.com/"><img src="images/icons/black/dribbble.png" alt="" title="" /><span>DRIBBBLE</span></a></li>
+      <li><a href="http://www.linkedin.com/"><img src="images/icons/black/linkedin.png" alt="" title="" /><span>LINKEDIN</span></a></li>
+      <li><a href="http://www.pinterest.com/"><img src="images/icons/black/pinterest.png" alt="" title="" /><span>PINTEREST</span></a></li>
+      </ul>
+      <div class="close_popup_button"><a href="#" class="close-popup" data-popup=".popup-social"><img src="images/icons/black/menu_close.png" alt="" title="" /></a></div>
+    </div>
+    </div>
+    <div id="itoast_frame2" style="display: none;" ></div>
+
+<script src="js/swiper.min.js"></script>
+<script src="js/jquery.custom.js"></script>
+<script src="js/login.js"></script>
+<script src="js/index.js"></script>
+ <script type="text/javascript" src="js/itoast.js"></script>
+<script type="text/javascript">
+ 
+ 
+//   (function() {
+//     var xhr = {};
+//     xhr.open = XMLHttpRequest.prototype.open;
+
+//     XMLHttpRequest.prototype.open = function(method, url) {
+//         console.log(url);
+//         if(url.indexOf('/proxy/') == 0){
+//             url = window.decodeURIComponent(url.substr(7));
+//         }
+//         xhr.open.apply(this, arguments);
+//     };
+// })(window);
+
+
+$(document).ready(function () {
+ 
+	username=window.localStorage.getItem("username"); 
+	 // if(username == null){
+	 // 	//alert("in");
+	 // 	window.location.href="index.html";
+
+	 // }
+	 // else 
+	 if(username != null)
+	 {
+	 	//alert(username);
+	 	window.location.assign("index_welcome.html");
+	 }
+   // 
+});
+</script>
+  </body>
+</html>
